@@ -3,40 +3,38 @@ h1 {
 }
 
 body {
-    font-family: Calibri;
+    font-family: "Al Bayan", serif;
 }
 div {
 
     margin: 10px;
 
 }
+
 p {
     padding: 30px 10px 10px 10px;
 }
 .row {
     width: 100%;
-    position: relative;
 }
 
 
-
-#Chicken h3, #Beef h3, #Sushi h3 {
+#Chicken, #Beef, #Sushi {
     border: solid 2px;
-    position: absolute;
     width: 100px;
     text-align: center;
     right: 0;
     top: 0;
 }
-#Chicken h3 {
+#Chicken {
     background-color: #D59898;
 }
 
-#Beef h3 {
+#Beef {
     background-color: #C14543;
 }
 
-#Sushi h3 {
+#Sushi {
     background-color: #E5D198;
 }
 
